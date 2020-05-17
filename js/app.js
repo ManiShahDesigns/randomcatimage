@@ -31,7 +31,7 @@ class UI {
       setTimeout(() => {
         spinner.classList.remove("show-spinner");
         image.classList.add("image-loaded");
-      }, 2000);
+      }, 2500);
       const request = new Fetch("https://aws.random.cat/meow", image);
     });
   }
